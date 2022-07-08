@@ -47,8 +47,8 @@
 .details-card {
   min-width: 25vw;
   min-height: 25vh;
-  max-width: 25vw;
-  max-height: 25vw;
+  max-width: 35vw;
+  max-height: 30vw;
   text-decoration: none;
   display: flex;
   flex-direction: column;
@@ -60,4 +60,17 @@
   background-color: #2b2d42;
   color: #edf2f4;
   font-size: 1.75rem;
+  padding: 15px;
+}
+
+.return-btn {
+  border: 2px solid cornflowerblue;
+  text-decoration: none;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
 }
